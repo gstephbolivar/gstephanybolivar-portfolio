@@ -1,7 +1,7 @@
 {
   "name": "gstephanybolivar_portfolio2021",
   "version": "0.1.0",
-  "homepage": "http://gstephbolivar.github.io/gstephanybolivar-portfolio",
+  "homepage": "http://gstephbolivar.github.io/gstephanybolivar-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",

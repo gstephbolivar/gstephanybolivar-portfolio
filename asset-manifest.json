@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gstephanybolivar-portfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/gstephanybolivar-portfolio/static/js/main.59fc3508.chunk.js",
+    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.59fc3508.chunk.js.map",
+    "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.7856b19a.js",
+    "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.7856b19a.js.map",
+    "static/js/2.6e662fef.chunk.js": "/gstephanybolivar-portfolio/static/js/2.6e662fef.chunk.js",
+    "static/js/2.6e662fef.chunk.js.map": "/gstephanybolivar-portfolio/static/js/2.6e662fef.chunk.js.map",
+    "static/js/3.ceb37064.chunk.js": "/gstephanybolivar-portfolio/static/js/3.ceb37064.chunk.js",
+    "static/js/3.ceb37064.chunk.js.map": "/gstephanybolivar-portfolio/static/js/3.ceb37064.chunk.js.map",
+    "index.html": "/gstephanybolivar-portfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/gstephanybolivar-portfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.6e662fef.chunk.js.LICENSE.txt": "/gstephanybolivar-portfolio/static/js/2.6e662fef.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/gstephanybolivar-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7856b19a.js",
+    "static/js/2.6e662fef.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.59fc3508.chunk.js"
+  ]
+}

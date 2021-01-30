@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import MobilRightMenuSlider from "@material-ui/core";
 import {
   AppBar,
   Toolbar,
   ListItem,
+  ListItemIcon,
   IconButton,
   ListItemText,
   Avatar,
@@ -14,7 +16,7 @@ import {
 } from "@material-ui/core";
 import {
   ArrowBack,
-  AssignmentInd,
+  EmojiPeople,
   Home,
   Apps,
   ContactMail,
@@ -34,42 +36,83 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(13),
     height: theme.spacing(13),
   },
+  listItem: {
+    color: "tan",
+  },
 }));
 
-// const menuIcons = [
-//     {
-//         listIcon: <Home/>
-//         listText: "Home"
-//     },
-//     {
-//         listIcon: <Apps/>
-//         listText: "Home"
-//     },
-//     {
-//         listIcon: <Home/>
-//         listText: "Home"
-//     }
-// ]
+const menuItems = [
+  {
+    listIcon: <Home />,
+    listText: "Home",
+  },
+  {
+    listIcon: <EmojiPeople />,
+    listText: "About Me",
+  },
+  {
+    listIcon: <Apps />,
+    listText: "Portfolio",
+  },
+  {
+    listIcon: <ContactMail />,
+    listText: "Contact",
+  },
+];
 
 const NavBar = () => {
+  const [state, setState] = useState({
+    right: false,
+  });
+
+  const togglesSlider = (slider, open) => () => {
+    setState({ ...state, [slider]: open });
+  };
   const classes = useStyles();
+
+  const sideList = (slider) => (
+    <Box className={classes.menuSliderContainer} component="div">
+      <Avatar
+        className={classes.avatar}
+        src={avatar}
+        alt="Stephany Bolivar Head shot"
+      />
+      <Divider />
+      <List>
+        {menuItems.map((lsItem, key) => (
+          <ListItem button key={key}>
+            <ListItemIcon className={classes.listItem}>
+              {lsItem.listIcon}
+              <ListItemText
+                className={classes.listItem}
+                primary={lsItem.listText}
+              />
+            </ListItemIcon>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
   return (
     <>
-      <Box className={classes.menuSliderContainer} component="div">
+      {/* <Box className={classes.menuSliderContainer} component="div">
         <Avatar
           className={classes.avatar}
           src={avatar}
           alt="Stephany Bolivar Head shot"
         />
-        {/* <Divider />
+        <Divider />
         <List>
-          <ListItem>
-              <ListItemIcon>
-
+          {menuItems.map((lsItem, key) => (
+            <ListItem button key={key}>
+              <ListItemIcon className={classes.listItem}>
+                  {lsItem.listIcon}
+                  <ListItemText className={classes.listItem} primary={lsItem.listText}/>
               </ListItemIcon>
-          </ListItem>
-        </List> */}
-      </Box>
+            </ListItem>
+          ))}
+        </List>
+      </Box> */}
       <Box component="nav">
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>

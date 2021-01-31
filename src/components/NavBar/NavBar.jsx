@@ -109,10 +109,10 @@ const NavBar = () => {
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
               <ArrowBack style={{ color: "tan" }} />
-            </IconButton>
-            <Typography variant="h5" style={{ color: "tan" }}>
+              <Typography variant="h5" style={{ color: "tan" }}>
               Menu
             </Typography>
+            </IconButton>
             <MobilRightMenuSlider
               anchor="right"
               open={state.right}

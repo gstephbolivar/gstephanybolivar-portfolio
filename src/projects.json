@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "BarkMatch",
+    "image": "/assets/images/BarkMatchDesk.gif",
+    "repository": "https://github.com/gstephbolivar/BarkMatch-project2",
+    "deployedSite": "https://vast-river-69240.herokuapp.com/",
+    "description": "Animal shelters are able to set up a profile and add dogs to be walked by a volunteer. A volunteer is able to see the dogalog, filter and sign up to walk a specific dog then receive an e-mail confirmation."
+  },
+  {
+    "id": 2,
+    "title": "SearchU",
+    "image": "/assets/images/search-u-gif.gif",
+    "repository": "https://github.com/gstephbolivar/searchu-project1",
+    "deployedSite": "https://gstephbolivar.github.io/searchu-project1/",
+    "description": "Prospective student is able to search for an institution and obtain information on institution and a quality of life index in location searched, if available."
+  },
+  {
+    "id": 3,
+    "title": "Employee Directory",
+    "image": "/assets/images/EmployeeDirectory.gif",
+    "repository": "https://github.com/gstephbolivar/employee-directory",
+    "deployedSite": "https://gstephbolivar.github.io/employee-directory/#/",
+    "description": "Incorporating ReactJS, this application allows a user to sort and filter through an employee directory to find a target employee's information."
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker",
+    "image": "/assets/images/fitness-tracker.gif",
+    "repository": "https://github.com/gstephbolivar/fitness-tracker",
+    "deployedSite": "https://murmuring-castle-92228.herokuapp.com/",
+    "description": "This fitness tracker application allows for a user to keep their  workouts stored all in one place. A user can start a workout and input the different details of their workout and save it for future reference. "
+  },
+  {
+    "id": 5,
+    "title": "Budget Tracker",
+    "image": "/assets/images/budget-tracker.gif",
+    "repository": "https://github.com/gstephbolivar/budget-tracker",
+    "deployedSite": "https://damp-harbor-85410.herokuapp.com/",
+    "description": "This budget tracker application allows a user to input details of their finances, whether they want to add funds or subtract funds. This application also works offline."
+  },
+  {
+    "id": 6,
+    "title": "Eat-da-Burger",
+    "image": "/assets/images/eatdaburger.gif",
+    "repository": "https://github.com/gstephbolivar/Eat-Da-Burger",
+    "deployedSite": "https://lit-escarpment-25784.herokuapp.com/",
+    "description": "Application to create a burger that will be displayed on the left hand side of the screen, then devour it, which will then be displayed to the right hand side of the screen."
+  }
+]

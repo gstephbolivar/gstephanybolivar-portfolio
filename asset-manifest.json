@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/gstephanybolivar-portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/gstephanybolivar-portfolio/static/js/main.1341b517.chunk.js",
-    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.1341b517.chunk.js.map",
-    "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.d49f20e3.js",
-    "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.d49f20e3.js.map",
-    "static/js/2.89dae0e9.chunk.js": "/gstephanybolivar-portfolio/static/js/2.89dae0e9.chunk.js",
-    "static/js/2.89dae0e9.chunk.js.map": "/gstephanybolivar-portfolio/static/js/2.89dae0e9.chunk.js.map",
-    "static/js/3.e1ac7df0.chunk.js": "/gstephanybolivar-portfolio/static/js/3.e1ac7df0.chunk.js",
-    "static/js/3.e1ac7df0.chunk.js.map": "/gstephanybolivar-portfolio/static/js/3.e1ac7df0.chunk.js.map",
+    "main.css": "/gstephanybolivar-portfolio/static/css/main.5a5f5725.chunk.css",
+    "main.js": "/gstephanybolivar-portfolio/static/js/main.87c5e56a.chunk.js",
+    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.87c5e56a.chunk.js.map",
+    "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.af3818f9.js",
+    "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.af3818f9.js.map",
+    "static/js/2.c9874507.chunk.js": "/gstephanybolivar-portfolio/static/js/2.c9874507.chunk.js",
+    "static/js/2.c9874507.chunk.js.map": "/gstephanybolivar-portfolio/static/js/2.c9874507.chunk.js.map",
+    "static/js/3.2117811e.chunk.js": "/gstephanybolivar-portfolio/static/js/3.2117811e.chunk.js",
+    "static/js/3.2117811e.chunk.js.map": "/gstephanybolivar-portfolio/static/js/3.2117811e.chunk.js.map",
     "index.html": "/gstephanybolivar-portfolio/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/gstephanybolivar-portfolio/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.89dae0e9.chunk.js.LICENSE.txt": "/gstephanybolivar-portfolio/static/js/2.89dae0e9.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/gstephanybolivar-portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.5a5f5725.chunk.css.map": "/gstephanybolivar-portfolio/static/css/main.5a5f5725.chunk.css.map",
+    "static/js/2.c9874507.chunk.js.LICENSE.txt": "/gstephanybolivar-portfolio/static/js/2.c9874507.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/gstephanybolivar-portfolio/static/media/iceland_one.c3b74d8f.jpg",
+    "static/media/stephany2.8f13f417.png": "/gstephanybolivar-portfolio/static/media/stephany2.8f13f417.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d49f20e3.js",
-    "static/js/2.89dae0e9.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.1341b517.chunk.js"
+    "static/js/runtime-main.af3818f9.js",
+    "static/js/2.c9874507.chunk.js",
+    "static/css/main.5a5f5725.chunk.css",
+    "static/js/main.87c5e56a.chunk.js"
   ]
 }

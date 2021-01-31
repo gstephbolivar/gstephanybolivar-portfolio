@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import MobilRightMenuSlider from "@material-ui/core";
+import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import {
   AppBar,
   Toolbar,
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
     background: "#511",
-    height: "30rem",
+    height: "100%",
   },
   avatar: {
     display: "block",
@@ -65,13 +65,17 @@ const NavBar = () => {
     right: false,
   });
 
-  const togglesSlider = (slider, open) => () => {
+  const toggleSlider = (slider, open) => () => {
     setState({ ...state, [slider]: open });
   };
   const classes = useStyles();
 
   const sideList = (slider) => (
-    <Box className={classes.menuSliderContainer} component="div">
+    <Box
+      className={classes.menuSliderContainer}
+      component="div"
+      // onClick={toggleSlider(slider, false)}
+    >
       <Avatar
         className={classes.avatar}
         src={avatar}
@@ -95,33 +99,22 @@ const NavBar = () => {
   );
   return (
     <>
-      {/* <Box className={classes.menuSliderContainer} component="div">
-        <Avatar
-          className={classes.avatar}
-          src={avatar}
-          alt="Stephany Bolivar Head shot"
-        />
-        <Divider />
-        <List>
-          {menuItems.map((lsItem, key) => (
-            <ListItem button key={key}>
-              <ListItemIcon className={classes.listItem}>
-                  {lsItem.listIcon}
-                  <ListItemText className={classes.listItem} primary={lsItem.listText}/>
-              </ListItemIcon>
-            </ListItem>
-          ))}
-        </List>
-      </Box> */}
       <Box component="nav">
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
-            <IconButton>
+            <IconButton onClick={toggleSlider("right", true)}>
               <ArrowBack style={{ color: "tomato" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "tan" }}>
               Portfolio
             </Typography>
+            <MobilRightMenuSlider
+              anchor="right"
+              open={state.right}
+              onClose={toggleSlider("right", false)}
+            >
+              {sideList("right")}
+            </MobilRightMenuSlider>
           </Toolbar>
         </AppBar>
       </Box>

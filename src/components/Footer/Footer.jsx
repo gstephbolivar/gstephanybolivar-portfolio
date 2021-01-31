@@ -17,7 +17,7 @@ const Footer = () => {
 
   return (
       <footer className={classes.footerContainer}>
-      <h3>Copyright 2020</h3>
+      <h3>Copyright 2021</h3>
     </footer>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import {
@@ -45,18 +46,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
+    listPath: "/",
   },
   {
     listIcon: <EmojiPeople />,
     listText: "About Me",
+    listPath: "/about",
   },
   {
     listIcon: <Apps />,
     listText: "Portfolio",
+    listPath: "/portfolio",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contact",
+    listPath: "contact",
   },
 ];
 
@@ -74,7 +79,7 @@ const NavBar = () => {
     <Box
       className={classes.menuSliderContainer}
       component="div"
-      // onClick={toggleSlider(slider, false)}
+      onClick={toggleSlider(slider, false)}
     >
       <Avatar
         className={classes.avatar}
@@ -84,7 +89,7 @@ const NavBar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-          <ListItem button key={key}>
+          <ListItem button key={key} component={NavLink} to={lsItem.listPath}>
             <ListItemIcon className={classes.listItem}>
               {lsItem.listIcon}
               <ListItemText

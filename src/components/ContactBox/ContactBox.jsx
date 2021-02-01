@@ -10,7 +10,8 @@ import FormatAlignJustifyIcon from '@material-ui/icons/FormatAlignJustify';
 const useStyles = makeStyles({
   cardContainer: {
     opacity: "0.5",
-    color: "red",
+    color: "black",
+    fontWeight: "bold",
     marginBottom: "3rem"
   },
 });

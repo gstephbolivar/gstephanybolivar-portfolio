@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#222",
     color: "tan",
     width: "100%",
-    position: "sticky",
+    position: "fixed",
     bottom: 0,
     textAlign: "center",
   },

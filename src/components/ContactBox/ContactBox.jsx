@@ -11,6 +11,7 @@ const useStyles = makeStyles({
   cardContainer: {
     opacity: "0.5",
     color: "red",
+    marginBottom: "3rem"
   },
 });
 const ContactBox = () => {

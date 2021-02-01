@@ -23,9 +23,6 @@ const Footer = () => {
     <Box component="footer" className={classes.footerContainer}>
       <Typography>&copy;Copyright 2021 G. Stephany Bolivar</Typography>
     </Box>
-    //   <footer className={classes.footerContainer}>
-    //   <h3>Copyright 2021</h3>
-    // </footer>
   );
 };
 

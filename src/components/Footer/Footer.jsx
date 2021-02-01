@@ -1,5 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import {
+  Box,
+  Typography
+} from "@material-ui/core";
 
 // CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -7,18 +11,21 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#222",
     color: "tan",
     width: "100%",
-    position: "fixed",
+    position: "sticky",
     bottom: 0,
-    textAlign: "center"
+    textAlign: "center",
   },
 }));
 const Footer = () => {
   const classes = useStyles();
 
   return (
-      <footer className={classes.footerContainer}>
-      <h3>Copyright 2021</h3>
-    </footer>
+    <Box component="footer" className={classes.footerContainer}>
+      <Typography>&copy;Copyright 2021 G. Stephany Bolivar</Typography>
+    </Box>
+    //   <footer className={classes.footerContainer}>
+    //   <h3>Copyright 2021</h3>
+    // </footer>
   );
 };
 

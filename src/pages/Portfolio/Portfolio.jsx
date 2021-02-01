@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import projects from "../../projects.json";
 import Project from "../../components/Project/Project";
-import {
-    Box,
-    Grid,
-    Typography
-} from "@material-ui/core"
+import { Box, Grid, Typography, Card, CardContent } from "@material-ui/core";
+import "../Portfolio/Portfolio.css";
 
 class Portfolio extends Component {
   state = {
@@ -15,8 +12,14 @@ class Portfolio extends Component {
     return (
       <>
         <Box component="div">
-          <Grid container justify="center">
-            <Typography variant="h1">Portfolio</Typography>
+          <Grid className="container" container justify="center" >
+            <Grid item xs={12} sm={8} md={6}>
+              <Card>
+                <CardContent>
+                  <Typography variant="h2">Portfolio</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
           </Grid>
         </Box>
         {this.state.projects.map((projects) => (

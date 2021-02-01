@@ -1,0 +1,9 @@
+.container{
+    margin: 3rem;
+    opacity: 0.5;
+    margin-left: auto;
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+}

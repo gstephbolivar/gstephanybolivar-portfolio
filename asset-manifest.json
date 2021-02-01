@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/gstephanybolivar-portfolio/static/css/main.904e57a1.chunk.css",
-    "main.js": "/gstephanybolivar-portfolio/static/js/main.e185c115.chunk.js",
-    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.e185c115.chunk.js.map",
-    "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.777f4775.js",
-    "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.777f4775.js.map",
-    "static/js/2.cb5d4ac8.chunk.js": "/gstephanybolivar-portfolio/static/js/2.cb5d4ac8.chunk.js",
-    "static/js/2.cb5d4ac8.chunk.js.map": "/gstephanybolivar-portfolio/static/js/2.cb5d4ac8.chunk.js.map",
-    "static/js/3.da4fd23b.chunk.js": "/gstephanybolivar-portfolio/static/js/3.da4fd23b.chunk.js",
-    "static/js/3.da4fd23b.chunk.js.map": "/gstephanybolivar-portfolio/static/js/3.da4fd23b.chunk.js.map",
+    "main.js": "/gstephanybolivar-portfolio/static/js/main.2c013f6b.chunk.js",
+    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.2c013f6b.chunk.js.map",
+    "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.91324d2c.js",
+    "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.91324d2c.js.map",
+    "static/js/2.428350df.chunk.js": "/gstephanybolivar-portfolio/static/js/2.428350df.chunk.js",
+    "static/js/2.428350df.chunk.js.map": "/gstephanybolivar-portfolio/static/js/2.428350df.chunk.js.map",
+    "static/js/3.286854c2.chunk.js": "/gstephanybolivar-portfolio/static/js/3.286854c2.chunk.js",
+    "static/js/3.286854c2.chunk.js.map": "/gstephanybolivar-portfolio/static/js/3.286854c2.chunk.js.map",
     "index.html": "/gstephanybolivar-portfolio/index.html",
     "static/css/main.904e57a1.chunk.css.map": "/gstephanybolivar-portfolio/static/css/main.904e57a1.chunk.css.map",
-    "static/js/2.cb5d4ac8.chunk.js.LICENSE.txt": "/gstephanybolivar-portfolio/static/js/2.cb5d4ac8.chunk.js.LICENSE.txt",
+    "static/js/2.428350df.chunk.js.LICENSE.txt": "/gstephanybolivar-portfolio/static/js/2.428350df.chunk.js.LICENSE.txt",
     "static/media/home.css": "/gstephanybolivar-portfolio/static/media/iceland_one.c3b74d8f.jpg",
     "static/media/stephany2.8f13f417.png": "/gstephanybolivar-portfolio/static/media/stephany2.8f13f417.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.777f4775.js",
-    "static/js/2.cb5d4ac8.chunk.js",
+    "static/js/runtime-main.91324d2c.js",
+    "static/js/2.428350df.chunk.js",
     "static/css/main.904e57a1.chunk.css",
-    "static/js/main.e185c115.chunk.js"
+    "static/js/main.2c013f6b.chunk.js"
   ]
 }

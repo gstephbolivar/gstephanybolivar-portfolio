@@ -36,7 +36,7 @@ const About = () => {
               Hi, I'm Stephany!
               <br />
               <br />
-              In my previous life I coached CrossFit and personal trained. I
+              In my previous life, I coached CrossFit and personal trained. I
               worked with hundreds of clients, listening to their wants and
               needs then writing a program to better their health, wellness, and
               be able to explore the world around them. Now, I've decided to

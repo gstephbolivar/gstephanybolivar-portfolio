@@ -43,13 +43,13 @@ const Home = () => {
         />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Gloria 'Stephany' Bolivar"]} typeSpeed={40} />
+        <Typed strings={["Stephany Bolivar"]} typeSpeed={40} />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Full Stack Web Developer",
+            "Software Developer",
             "Outdoor enthusiast",
             "Coffee fanatic",
           ]}

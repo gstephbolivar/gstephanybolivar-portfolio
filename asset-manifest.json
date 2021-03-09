@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gstephanybolivar-portfolio/static/css/main.904e57a1.chunk.css",
-    "main.js": "/gstephanybolivar-portfolio/static/js/main.6fbf0a24.chunk.js",
-    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.6fbf0a24.chunk.js.map",
+    "main.js": "/gstephanybolivar-portfolio/static/js/main.24d31658.chunk.js",
+    "main.js.map": "/gstephanybolivar-portfolio/static/js/main.24d31658.chunk.js.map",
     "runtime-main.js": "/gstephanybolivar-portfolio/static/js/runtime-main.91324d2c.js",
     "runtime-main.js.map": "/gstephanybolivar-portfolio/static/js/runtime-main.91324d2c.js.map",
     "static/js/2.428350df.chunk.js": "/gstephanybolivar-portfolio/static/js/2.428350df.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.91324d2c.js",
     "static/js/2.428350df.chunk.js",
     "static/css/main.904e57a1.chunk.css",
-    "static/js/main.6fbf0a24.chunk.js"
+    "static/js/main.24d31658.chunk.js"
   ]
 }

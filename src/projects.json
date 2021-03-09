@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Farm to Table",
+    "image": "/assets/images/Farm-to-Table.gif",
+    "repository": "https://github.com/gstephbolivar/farm_to_table",
+    "deployedSite": "https://glacial-falls-13622.herokuapp.com/",
+    "description": "Farm to Table allows for a farmer to input the produce they have to sell. A user then creates an account, browse through the produce and reserve the produce they would like. Upon reservation, the user will receive a confirmation email."
+  },
+  {
+    "id": 2,
     "title": "BarkMatch",
     "image": "/assets/images/BarkMatchDesk.gif",
     "repository": "https://github.com/gstephbolivar/BarkMatch-project2",
@@ -8,7 +16,7 @@
     "description": "Animal shelters are able to set up a profile and add dogs to be walked by a volunteer. A volunteer is able to see the dogalog, filter and sign up to walk a specific dog then receive an e-mail confirmation."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "SearchU",
     "image": "/assets/images/search-u-gif.gif",
     "repository": "https://github.com/gstephbolivar/searchu-project1",
@@ -16,7 +24,7 @@
     "description": "Prospective student is able to search for an institution and obtain information on institution and a quality of life index in location searched, if available."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Employee Directory",
     "image": "/assets/images/EmployeeDirectory.gif",
     "repository": "https://github.com/gstephbolivar/employee-directory",
@@ -24,7 +32,7 @@
     "description": "Incorporating ReactJS, this application allows a user to sort and filter through an employee directory to find a target employee's information."
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Fitness Tracker",
     "image": "/assets/images/fitness-tracker.gif",
     "repository": "https://github.com/gstephbolivar/fitness-tracker",
@@ -32,7 +40,7 @@
     "description": "This fitness tracker application allows for a user to keep their  workouts stored all in one place. A user can start a workout and input the different details of their workout and save it for future reference. "
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Budget Tracker",
     "image": "/assets/images/budget-tracker.gif",
     "repository": "https://github.com/gstephbolivar/budget-tracker",
@@ -40,7 +48,7 @@
     "description": "This budget tracker application allows a user to input details of their finances, whether they want to add funds or subtract funds. This application also works offline."
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Eat-da-Burger",
     "image": "/assets/images/eatdaburger.gif",
     "repository": "https://github.com/gstephbolivar/Eat-Da-Burger",

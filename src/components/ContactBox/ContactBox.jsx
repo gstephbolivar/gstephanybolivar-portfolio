@@ -36,7 +36,7 @@ const ContactBox = () => {
               <Typography variant="h5"><a href="https://www.linkedin.com/in/gstephanybolivar/">G. Stephany Bolivar</a></Typography>
               <br />
               <Typography variant="h4"><FormatAlignJustifyIcon/>Resume:</Typography>
-              <Typography variant="h5"><a href={"/assets/Resume/StephanyBolivar.resume.pdf"} download="G. Stephany Bolivar Resume">View/Download</a></Typography>
+              <Typography variant="h5"><a href={"/assets/Resume/StephanyBolivar_resume.pdf"} download="G. Stephany Bolivar Resume">View/Download</a></Typography>
             </CardContent>
           </Card>
         </Grid>
